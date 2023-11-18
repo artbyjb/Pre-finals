@@ -8,8 +8,7 @@
             <input type="submit" value="Generate Prime Numbers">
             </form>
         </body>
-        <script>
-           function analyzeNumber(){
+       function analyzeNumber(){
             const number = parselnt(documment.getElementById("numberInput").value);
 
             let isPrime = true;
@@ -37,14 +36,6 @@
       if (isOdd) {
         resultElement.textContent += number +' is odd. ';
       } else {
-        resultElement.textContent += number +' is even. ';
-      }
-    }
-  </script>
-        
-
-           }
-        </script>
-    </head>
+           
 
 </html>
